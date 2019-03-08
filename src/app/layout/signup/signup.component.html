@@ -1,0 +1,29 @@
+<div class="wrapper" >
+    <div class="loginbox" >
+      <h1>Welcome</h1>
+      <!-- Register Form -->
+      <form #register="ngForm" [formGroup]="Registerform" (ngSubmit)="!register.invalid && onSubmit()">
+        <input type="text" minlength="4" formControlName="username" placeholder="Username" required/>
+        <input type="email" formControlName="email" placeholder="Email" required/>
+        <input type="text" formControlName="city" placeholder="City" required />
+        <input type="text" formControlName="password" placeholder="Password" required />        
+        <button type="submit" id="login-button">Register</button>
+        
+        <p><a routerLink="/login">Already have account</a></p>
+      </form>
+      <!-- Register Form close -->
+    </div>
+    
+    <ul class="bg-bubbles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>

@@ -1,0 +1,16 @@
+.layer{
+    display: flex;
+
+}
+.sidebar{
+    width: 220px;
+    height: calc(100vh - 60px);
+    background: #02b6ca;
+}
+
+.content{
+    padding: 15px;
+    background: #cfcfcf;
+    width: calc(100% - 220px);
+    box-sizing: border-box;
+}

@@ -1,0 +1,27 @@
+<div class="wrapper" >
+	<div class="loginbox" >
+		<h1>Welcome</h1>
+		<!-- Login Form -->
+		<form #loginForm="ngForm"  [formGroup]="loginform" (ngSubmit)="!loginForm.invalid && onSubmit()" class="form" novalidate>
+			<input type="text" minlength="4" formControlName="username" placeholder="Username" required/>
+			<input type="text" formControlName="password" placeholder="Password" required />
+			<button type="submit" id="login-button">Login</button>
+			<p><a routerLink="/register">Register</a></p>
+			<!-- <div class="alert" *ngIf="loginform.controls['username'].valid">error</div> -->
+		</form>
+		<!-- login form close -->
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>

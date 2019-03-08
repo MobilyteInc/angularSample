@@ -1,0 +1,8 @@
+nav {
+    padding: 0;
+    list-style: none;
+    li{background: rgba(0,0,0,0.1); border-style: solid; border-color: #fff; border-width: 1px 0;}
+    li+li{border-top:0; }
+    a { width: 100%; padding: 15px; display: block; font-weight: 700; color: #fff}
+    a:hover, a.active{background: rgba(3, 85, 110, 0.452)}
+}   
