@@ -1,6 +1,20 @@
-# AngSampleV7
+# Angular sample code by Mobilyte
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
+
+### Login Screen 
+![angsamplev7](https://user-images.githubusercontent.com/17913351/54026780-0d5be600-41c5-11e9-962d-ccf8c30197ab.png)
+
+### Dashboard
+![angsamplev7 2](https://user-images.githubusercontent.com/17913351/54026859-5744cc00-41c5-11e9-8bba-17afef3fda70.png)
+
+### Listing
+
+![angsamplev7 1](https://user-images.githubusercontent.com/17913351/54026913-8eb37880-41c5-11e9-846c-62d1b8804651.png)
+
+
+
+
+### This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
 ## Development server
 
@@ -22,6 +36,6 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
